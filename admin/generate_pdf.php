@@ -18,7 +18,7 @@ class PDF extends FPDF
         $this->SetMargins(15, 15, 15);
 
         // Logo
-        $this->Image('../assets/img/icon.png', 15, 10, 25);
+        $this->Image('../assets/img/logo-lp3.png', 15, 10, 25);
 
         // Header text
         $this->SetFont('Arial', 'B', 15);
